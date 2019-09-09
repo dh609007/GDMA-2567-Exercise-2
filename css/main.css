@@ -11,6 +11,13 @@
 	box-sizing: border-box;
 }
 
+figure {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
@@ -20,6 +27,10 @@
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.img-responsive {
+	max-width: 100%;
 }
 
 [class*="col-"] {
@@ -192,11 +203,24 @@
 
 /*---TO BE DELETED LATER---*/
 
+
+
+
 .wrapper {
 	background-color: skyblue;
 }
 
 [class*="col-"] div {
 	background-color: darkblue;
+	height: 200px;
+}
+
+
+
+#bg-fox {
+	background-image:url("../img/bg-fox.jpg");
+	background-size: cover;
+	background-origin: content-box;
+	background-repeat: no-repeat;
 	height: 200px;
 }
