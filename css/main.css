@@ -215,12 +215,23 @@ figure {
 	height: 200px;
 }
 
-
-
 #bg-fox {
 	background-image:url("../img/bg-fox.jpg");
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-webkit-background-size: cover;
 	background-size: cover;
+	-moz-background-origin: content-box;
+	-o-background-origin: content-box;
+	-ms-background-origin: content-box;
+	-webkit-background-origin: content-box;
 	background-origin: content-box;
+	-moz-background-clip: content-box;
+	-o-background-clip: content-box;
+	-ms-background-clip: content-box;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
 	background-repeat: no-repeat;
 	height: 200px;
 }
