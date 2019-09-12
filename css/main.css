@@ -11,13 +11,6 @@
 	box-sizing: border-box;
 }
 
-figure {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
@@ -27,6 +20,13 @@ figure {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+figure {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .img-responsive {
